@@ -1,0 +1,28 @@
+---
+type: "Ticket_Artifact"
+title: "project_briefing"
+timestamp: "[TIMESTAMP]"
+language: "en-US"
+encoding: "UTF-8 (No BOM)"
+description: "Initial discovery and high-level project briefing."
+methodology: "Initial Discovery"
+tags: ["briefing", "discovery", "architecture"]
+---
+
+# Project Briefing (00_project_briefing.md)
+
+**Purpose:** Record the answers from Phase 0 (Initial Discovery), serving as the foundational context and guiding compass for all other phases and technical decisions of the project.
+
+---
+
+## 1. Identification
+- **Project Name:** [Name or codename]
+- **Macro Objective:** [Main goal and reason to exist]
+
+## 2. Technical Scope and Platform
+- **Target Platform:** [Web, Desktop, Mobile, Mixed, etc.]
+- **Initial Tech Stack:** [Technology stack in mind]
+- **Complexity and Challenges:** [Expected complexity and biggest technical challenge]
+
+## 3. Identity
+- **Branding and Tone:** [Visual perception, branding, and solution identity]

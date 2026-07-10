@@ -1,0 +1,35 @@
+---
+type: "Ticket_Artifact"
+title: "05_domain_events"
+timestamp: "[TIMESTAMP]"
+language: "en-US"
+encoding: "UTF-8 (No BOM)"
+description: "Mapping of the domain Event Storming, including aggregates and actors."
+methodology: "DDD (Domain-Driven Design)"
+tags: ["ticket", "artifact", "05_domain_events"]
+---
+
+# Domain Events & Storming (05_domain_events.md)
+
+**Purpose:** [Describe the specific purpose of the event mapping for this issue]
+
+---
+
+## 1. System Actors
+> Identify the users, external systems, or agents that interact in the domain covered by this issue.
+- **Actor A:** Description of their role.
+
+## 2. Aggregates and Entities (Domain Entities)
+> List the main aggregates and entities of this context.
+- **Aggregate X:** Responsibility and business concept.
+
+## 3. Domain Commands and Events
+> Map the triggering actions (Commands) and the results that affect the system (Events).
+
+### 3.1. [Flow/Use Case Name]
+- **Command:** (e.g., `CreateUser`) - Requested action.
+- **Domain Validations:** What must be checked before the action.
+- **Generated Event:** (e.g., `UserCreated`) - Consummated fact occurred in the system.
+
+## 4. Asynchronous Events / Reactions
+> If applicable, list which events trigger asynchronous reactions in other contexts or systems.

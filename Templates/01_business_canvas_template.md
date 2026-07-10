@@ -1,0 +1,43 @@
+---
+type: "Business_Model_Canvas"
+title: "01_business_canvas"
+timestamp: "[TIMESTAMP]"
+language: "en-US"
+encoding: "UTF-8 (No BOM)"
+description: "Validates the problem, value proposition, customer segments, and financial viability."
+methodology: "Business Strategy / BMC"
+tags: ["bmc", "canvas", "business"]
+---
+
+# Business Model Canvas (01_business_canvas.md)
+
+> [!TIP]
+> The Business Model Canvas (BMC) is a strategic management tool that allows you to develop and sketch new or existing business models.
+
+## 1. Problem
+> What is the main pain point or inefficiency we are trying to solve?
+- 
+
+## 2. Value Proposition
+> What makes this solution unique and valuable for the user?
+- 
+
+## 3. Customer Segments
+> Who exactly will suffer from this pain and use the system?
+- 
+
+## 4. Viability and Sustainability
+> How does this project generate value for the ecosystem or save resources (time/money)?
+- 
+
+## 5. Key Partnerships
+> Which external partners, suppliers, or key frameworks are essential for it to work?
+- 
+
+## 6. Cost Structure
+> Main costs inherent to operation and development. (Note: Without estimating precise numerical values).
+- 
+
+## 7. Revenue Streams / Gains
+> Ways the project monetizes or generates indirect gains.
+- 

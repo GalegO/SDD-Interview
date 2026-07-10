@@ -1,0 +1,30 @@
+---
+type: "Ticket_Artifact"
+title: "06_design"
+timestamp: "[TIMESTAMP]"
+language: "en-US"
+encoding: "UTF-8 (No BOM)"
+description: "Strategic design of the solution, defining Bounded Contexts and the semantic business justification."
+methodology: "DDD (Domain-Driven Design)"
+tags: ["ticket", "artifact", "06_design"]
+---
+
+# Strategic Design and Bounded Contexts (06_design.md)
+
+**Purpose:** [Describe the specific purpose of the strategic design for this issue]
+
+---
+
+## 1. Domain Architectural Decisions
+> Describe the strategic decisions to solve the presented problem.
+
+## 2. Involved Bounded Contexts
+> Which Bounded Contexts of the system will be affected or created? (e.g., Payments, Authentication, Ticket Management).
+- **Context A:** Justification for inclusion.
+
+## 3. Ubiquitous Language (Local Glossary)
+> Specific business terms that everyone should use consistently in this scope.
+- **Term Y:** Rigorous definition in the current context.
+
+## 4. Boundaries and Interactions
+> How does this context interact with others? Are there communication APIs between them? Global events?

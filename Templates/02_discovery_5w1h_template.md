@@ -1,0 +1,39 @@
+---
+type: "Discovery"
+title: "02_discovery_5w1h"
+timestamp: "[TIMESTAMP]"
+language: "en-US"
+encoding: "UTF-8 (No BOM)"
+description: "Extracts the completeness of the problem using the 5W1H framework (What, Who, When, Where, Why, How)."
+methodology: "Discovery / 5W1H"
+tags: ["discovery", "5w1h", "requirements"]
+---
+
+# Discovery 5W1H (02_discovery_5w1h.md)
+
+> [!TIP]
+> The 5W1H method helps to understand the project in its most practical dimensions, defining the proposal clearly.
+
+## 1. What?
+> What exactly will be delivered at the end? (Product, service, scope, etc.)
+- 
+
+## 2. Who?
+> Who are the direct and indirect actors in this process? (Users, stakeholders, systems).
+- 
+
+## 3. When?
+> What is the urgency, seasonality, or time trigger for the use/launch of this system?
+- 
+
+## 4. Where?
+> Where will this be accessed and executed? (Platform, Cloud, Local, Web, Mobile).
+- 
+
+## 5. Why?
+> What is the final success metric? Why are we building this?
+- 
+
+## 6. How?
+> How will the user's "happy path" or main execution mechanics be?
+- 

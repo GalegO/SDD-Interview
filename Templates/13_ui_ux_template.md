@@ -1,0 +1,46 @@
+---
+type: "Ticket_Artifact"
+title: "13_ui_ux"
+timestamp: "[TIMESTAMP]"
+language: "en-US"
+encoding: "UTF-8 (No BOM)"
+description: "Visual design specification from a Mobile-First and Skeletons perspective."
+methodology: "UI/UX Design / Mobile-First"
+tags: ["ticket", "artifact", "13_ui_ux"]
+---
+
+# UI/UX Interface Specification (13_ui_ux.md)
+
+**Purpose:** [Describe the objective of the UI/UX designed for this issue]
+
+---
+
+## 1. Device-Agnostic / Responsive Approach
+> Describe how the interface was designed for adaptive use and how it scales across devices.
+
+## 2. Structure and Grid
+> Definition of visual hierarchy, spacing, and element organization.
+- **Base Layout:** Description of layout usage (Flex/Grid) for the screen.
+- **Spacing (Tokens):** e.g., medium-gap, large-padding.
+
+## 3. Colors and Typography (Design System / Tokens)
+> Strict specification based on Design System / Brand Guidelines.
+- **Primary Colors:** Which background and contrast colors will be applied? (Without using hexadecimals, use Design Tokens).
+- **Typography:** Specific classes and textual weights.
+
+## 4. Interface States (Micro-interactions)
+> Defining reactive states is mandatory to ensure dynamics.
+- **Default:** How the button/card looks.
+- **Hover/Focus:** Behavior (change in opacity or contrast, smooth transformations).
+- **Loading State:** How the **Skeleton** should be displayed during data fetching.
+- **Error State:** How to visually handle failures.
+
+## 5. Accessibility (A11y) and Inclusion
+> Strict guidelines to support screen readers, visual, motor, and cognitive accessibility.
+- **Screen Readers and Semantics:** [Define the `alt` attributes of images, `aria-labels`, and specific semantic HTML of this screen]
+- **Visual Accessibility:** [Specify the minimum contrast, font scaling behavior, and feedback without exclusive use of color]
+- **Motor Accessibility:** [Define the tab order, focus rings, and click areas (min. 44x44px touch targets) of this interface]
+- **Cognitive and Vestibular Accessibility:** [How will `prefers-reduced-motion` override animations here? What are the clear messages for error feedback?]
+
+## 6. References and Skeletons
+> If there is structural ASCII Art, or planned commands.
