@@ -1,28 +1,20 @@
-# Contributing to SDD-Interview
+﻿# Contributing to SDD-Interview v2
 
-First off, thank you for considering contributing to SDD-Interview! 
+## Updating a methodology
 
-## 🏗️ Adding New Methodologies or Templates
+1. Name its template `xx.yy_methodology_artifact.md`; do not use `_template`, because the containing folder already provides that context.
+2. Update its topic script in `phases/`.
+3. Keep topic IDs stable unless a breaking migration is documented.
+4. Update the canonical row, exact template filename, and topic count in `reference/methodology-map.md`.
+5. Update the matching template when required.
+6. Confirm the methodology can be resumed, reported by status, and validated.
 
-1. **Create the Template:** Add your new Markdown template in the `Templates/` folder. Name it sequentially or logically (e.g., `18_security_audit_template.md`).
-2. **Update the SKILL.md:** 
-   - Add your new methodology to the Setup list.
-   - Add it to the `2. Methodologies and Artifacts (Templates)` list.
-   - Add a brief explanation of it in the `/interview help` section.
-   - Add the specific interview questions for this new phase in the `6. Standard Question Script` section.
-3. **Keep it Agnostic:** Ensure your questions and templates are technology and framework agnostic. The skill should work for Web, Mobile, Desktop, and Backend projects.
+## Adding a methodology
 
-## 🐛 Bug Reports
+Add the template, phase script, methodology-map entry, setup/help content in `SKILL.md`, and final-index behavior. Preserve the naming convention and keep the skill technology-agnostic, one question at a time, without executable code or cost estimates.
 
-If the AI behaves unexpectedly or gets stuck in a loop, please open an issue describing:
-1. The command you used.
-2. The exact response that broke the flow.
-3. Your expected outcome.
+## Reporting defects
 
-## 🔀 Pull Requests
+Include the command used, exact observed behavior, expected behavior, and a sanitized `00.00_tracking_changelog.md` when possible.
 
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/AmazingNewTemplate`).
-3. Commit your changes (`git commit -m 'Add some AmazingNewTemplate'`).
-4. Push to the branch (`git push origin feature/AmazingNewTemplate`).
-5. Open a Pull Request.
+

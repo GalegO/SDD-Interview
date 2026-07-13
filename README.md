@@ -1,34 +1,50 @@
-# SDD-Interview 🧠👔
+# SDD-Interview v2
 
-An advanced, interactive Software Architect and Product Manager skill for Agentic AI environments. 
+A structured interview skill for extracting business requirements, technical decisions, and architecture documentation before implementation.
 
-This skill guides users through a structured, multi-phase interview process to extract business requirements, technical specifications, and design decisions BEFORE any code is written. It automatically translates your answers into standardized, Markdown-based architectural documentation.
+## Highlights
 
-## ✨ Features
+- Topic-driven interviews: ask as many questions as necessary to cover each subject well, never a fixed quota.
+- Recoverable progress: structured state in [00.00_tracking_changelog.md](00.00_tracking_changelog.md) tracks methodologies, documents, and the current topic.
+- Independent validation: `/interview validate <path>` writes a physical validation report.
+- Clear status: `/interview status <path>` reads the interview state and reports the next step.
+- Safe documentation ingestion: `/interview docs` reads source material without changing it.
 
-- **12 Supported Methodologies:** From Business Model Canvas to DDD, CQRS, Clean Architecture, BDD, and Compliance.
-- **Fast-Track Ingestion:** Point the AI to an existing wiki or legacy documentation directory (`/interview docs`), and it will pre-fill the interview drafts for you.
-- **Anti-Amnesia Lifecycle:** Generates physical Markdown artifacts progressively. If you stop halfway, nothing is lost.
-- **Context Recovery:** Use `/interview resume` to pick up exactly where you left off based on a robust changelog system.
-- **Backtracking Supported:** Change your mind about a database choice made 3 phases ago? The AI will silently patch the previous documents and resume without resetting.
+## Installation
 
-## 🚀 Installation
+Copy this folder into an agent's skills directory and retain `Templates/`, `phases/`, and `reference/`.
 
-1. Copy the `interview` folder into your agent's skills directory (e.g., `.agents/skills/interview`).
-2. Ensure the `Templates/` directory is kept intact inside the skill folder.
-3. Trigger the skill in your AI interface by typing `/interview help` or `/interview new <project_alias>`.
+## Commands
 
-## 🛠️ Usage
+- `/interview new <alias>`
+- `/interview docs <docs_path> <alias>`
+- `/interview resume <alias_path>`
+- `/interview status <alias_path>`
+- `/interview validate <alias_path>`
+- `/interview help <topic>`
 
-- `/interview new <alias>` - Start a fresh project from scratch.
-- `/interview docs <path> <alias>` - Start a project by ingesting legacy context first.
-- `/interview resume <path>` - Resume an interrupted interview.
-- `/interview help` - View detailed information on the 12 available artifacts.
+`status`, `resume`, and `validate` require an absolute interview folder path containing [00.00_tracking_changelog.md](00.00_tracking_changelog.md).
 
-## 🤝 Contributing
+## Structure
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to add new templates or improve the AI prompts.
+- [SKILL.md](SKILL.md): core behavior, commands, lifecycle, and safeguards.
+- `phases/`: topic scripts for each methodology.
+- `reference/`: canonical mapping, validation, I/O, docs-mode, markdown-guidelines, and OKF rules.
+- `Templates/`: output document structures, named `xx.yy_methodology_artifact.md` (with phase `99` reserved for the final index).
 
-## 📝 License
+The original `interview-skill-repo/` remains unchanged; this `interview-skill-repo-2/` folder is the version for A/B testing.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Compliance & Privacy
+
+> [!WARNING]
+> **TERMS OF USE, CUSTODY DISCLAIMER, AND LIABILITY MITIGATION**
+> This Skill operates in "Pass-Through" mode, meaning it reads your local files and sends them to your chosen LLM provider.
+> **DO NOT** run this Skill in directories containing un-sanitized Personally Identifiable Information (PII), hardcoded API keys, or Confidential Trade Secrets.
+> You are entirely responsible for the data you process and for complying with LGPD/GDPR.
+> Please read the complete [Terms of Use](TERMS_OF_USE.md) before using this tool.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+
