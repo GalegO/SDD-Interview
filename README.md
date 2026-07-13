@@ -53,7 +53,7 @@ SDD-Interview forces you to think about edge cases, compliance, and event flows 
 | **Final Outputs (Index & KPIs)** | 2 | 3 |
 | **TOTAL** | **23** | **83** |
 
-#### 📋 Covered Topics Details (Exhaustive Map of 83 Topics):
+#### 📋 Detailed Breakdown of All 83 Topics
 - **System (Tracking & QA):** Initial Setup (State Machine), Criteria Analysis (QA), Summary and Next Action (Handoffs).
 - **00. Initial Discovery:** Identification, Technical Scope and Platform, Identity.
 - **01. Business Model Canvas:** Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains.
