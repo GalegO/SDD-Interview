@@ -17,22 +17,22 @@ Based on the highly granular **V2 Engine**, it can generate up to **23 distinct 
 | Methodology | Artifacts Count | Topics Count |
 |---|:---:|:---:|
 | **System (Tracking & QA)** | 2 | 4 |
-| **00. Initial Discovery** | 1 | 3 |
-| **01. Business Model Canvas** | 1 | 3 |
+| **00. Initial Discovery** | 1 | 4 |
+| **01. Business Model Canvas** | 1 | 9 |
 | **02. 5W1H Discovery** | 1 | 6 |
 | **03. MoSCoW Prioritization** | 1 | 4 |
-| **04. Epic Breakdown** | 1 | 2 |
-| **05. Domain-Driven Design (DDD)** | 4 | 8 |
+| **04. Epic Breakdown** | 1 | 3 |
+| **05. Domain-Driven Design (DDD)** | 4 | 12 |
 | **06. CQRS** | 2 | 6 |
-| **07. Clean Architecture (SDD)** | 1 | 3 |
-| **08. Event-Driven (EDD)** | 1 | 2 |
-| **09. UI/UX Atomic Design** | 1 | 4 |
-| **10. BDD Scenarios** | 1 | 1 |
-| **11. TDD Test Strategy** | 1 | 3 |
-| **12. Legal & Compliance** | 1 | 3 |
-| **13. Executive Pitch** | 2 | 2 |
+| **07. Clean Architecture (SDD)** | 1 | 4 |
+| **08. Event-Driven (EDD)** | 1 | 4 |
+| **09. UI/UX Atomic Design** | 1 | 5 |
+| **10. BDD Scenarios** | 1 | 3 |
+| **11. TDD Test Strategy** | 1 | 4 |
+| **12. Legal & Compliance** | 1 | 4 |
+| **13. Executive Pitch** | 2 | 8 |
 | **Final Outputs (Index & KPIs)** | 2 | 3 |
-| **TOTAL** | **23** | **57** |
+| **TOTAL** | **23** | **83** |
 
 #### 📋 Covered Topics Details:
 - **System:** Handoffs, State Tracking, Automated QA, Inconsistency Checks.
