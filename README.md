@@ -1,8 +1,22 @@
 # 🧠👔 SDD-Interview (Software Design & Discovery)
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0-brightgreen.svg)
+![AI-Powered](https://img.shields.io/badge/AI-Agentic_Skill-purple.svg)
+
 **Your Agentic AI Chief Software Architect & Mentor.** 
 
 Before writing a single line of code, **SDD-Interview** acts as your Senior Consultant. It guides developers, technical leads, and founders through a structured, multi-phase interview to automatically extract business rules, technical specifications, and design patterns. Say goodbye to the "initial chaos" of software development.
+
+## 📖 Table of Contents
+- [Why SDD-Interview?](#-why-sdd-interview)
+- [How It Works](#-how-it-works)
+  - [Methodologies & Outputs](#️-methodologies--outputs)
+- [Usage](#️-usage)
+  - [A La Carte Selection](#️-a-la-carte-selection)
+- [Roadmap (Future Horizons)](#️-roadmap-future-horizons)
+- [Contributing](#-contributing)
+- [License & Attribution](#-license--attribution)
 
 By answering sequential questions, the AI progressively generates comprehensive, interconnected Markdown-based architectural documentation (DDD, BDD, TDD, CQRS, Clean Architecture, and more) inside your IDE.
 
@@ -97,6 +111,12 @@ We are constantly improving the SKILL to handle enterprise-grade and mission-cri
 - **EDD:** Resilience, Idempotency, and Event Serialization Contracts.
 - **Observability:** Distributed Tracing and Correlation IDs.
 - **SEO & Marketing:** Automated SEO & Metadata strategic planning.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Whether it's reporting a bug, suggesting a new architectural pattern, or improving the methodologies, please see our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get involved.
 
 ---
 ## 📝 License & Attribution
