@@ -30,6 +30,7 @@ Building complex software without mapping it first leads to technical debt, arch
 Whether you are designing a completely **new project**, scoping out a **new feature**, or trying to untangle a **complex bug**, the interview naturally exposes blind spots and edge cases you hadn't even considered at the start.
 
 ### 🌟 Key Points
+- **100% Platform & Model Agnostic:** Built purely on Markdown and prompt engineering, the skill is completely decoupled from any specific vendor. You can run it across various AI IDEs, CLI Agents, and plug it into any LLM model (Claude, GPT, Gemini) without breaking the flow.
 - **No-Backend & Cost Zero:** Runs entirely via CLI and Markdown in your IDE. Zero cloud infrastructure costs.
 - **Fluid Mentorship UX:** Replaces rigid text generators with an interactive, consultative chat.
 - **Anti-Amnesia Lifecycle (State Machine):** Physical Markdown files are saved progressively. You can pause, resume (`/interview resume <path>`), and safely backtrack without the AI losing context.
