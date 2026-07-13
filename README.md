@@ -12,6 +12,7 @@ Before writing a single line of code, **SDD-Interview** acts as your Senior Cons
 - [Why SDD-Interview?](#-why-sdd-interview)
 - [How It Works](#-how-it-works)
   - [Methodologies & Outputs](#️-methodologies--outputs)
+- [Installation](#-installation)
 - [Usage](#️-usage)
   - [Real Example (Demo V2)](#-real-example-demo-v2)
   - [A La Carte Selection](#️-a-la-carte-selection)
@@ -91,10 +92,13 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 
 ---
 
+## 📦 Installation
+
+1. Copy the `interview` folder into your agent's skills directory (or the designated location for your specific AI CLI/IDE).
+
 ## 🛠️ Usage
 
-1. Copy the `interview` folder into your agent's skills directory.
-2. Trigger the skill in your AI interface by typing:
+Trigger the skill in your AI interface by typing:
    - `/interview new <alias>` - Start a fresh project from scratch.
    - `/interview docs <path> <alias>` - Start a project by ingesting legacy context first.
    - `/interview resume <path>` - Resume an interrupted interview.
