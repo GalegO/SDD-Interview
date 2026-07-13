@@ -99,6 +99,9 @@ Whether you are designing a completely **new project**, scoping out a **new feat
    - `/interview resume <path>` - Resume an interrupted interview.
    - `/interview help` - View detailed information on the methodologies.
 
+### 🎯 Real Example (Demo V2)
+To see exactly what the output of this skill looks like, check out the **[Demo V2](./examples/demo-v2/README.md)** directory. It contains 23 architectural artifacts generated during a real, extensive interview session. This is a great place to understand the depth and structure of the AI's output.
+
 ### 🎛️ A La Carte Selection
 You are **not** obligated to go through all 13 methodology phases and 83 topics every single time. At the beginning of the interview, you can select exactly which methodologies you want to use (e.g., only DDD and CQRS for a specific microservice). 
 However, **we strongly advise running the full, complete interview at least once**. By experiencing the entire flow and knowing exactly what content is generated in each phase, you will easily be able to determine if those methodologies will be needed in the future or not. Remember: *the more questions you answer, the higher the quality of the final consolidated architecture.*
