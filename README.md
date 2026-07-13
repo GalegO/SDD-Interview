@@ -27,6 +27,7 @@ SDD-Interview forces you to think about edge cases, compliance, and event flows 
 **SDD-Interview** is not a simple prompt generator; it is a stateful, agentic engine that operates dynamically within your IDE.
 
 - **The Mechanics & Tone:** The AI adopts the persona of a strict, highly analytical Chief Software Architect. It conducts a step-by-step interview, asking one question at a time. It challenges your assumptions, validates your logic, and forces you to think strategically.
+- **Fluid Flexibility & Non-Linearity:** Despite being highly structured, the interview feels like a natural chat. The system is not a rigid top-down script. You are free to change your mind, brainstorm, or abruptly say, "Actually, let's change our database choice from Phase 3". The AI is intelligent enough to retroactively edit previously generated artifacts without messing up the current context or the overall flow.
 - **Cross-Referencing (Semantic JOINs):** As you progress through the phases, the skill intelligently reads the previously generated Markdown files. This ensures that a database decision made in Phase 5 (DDD) perfectly aligns with the UI requirements mapped in Phase 9, preventing architectural contradictions.
 - **Safeguards & State Machine:** The entire process is tracked by a physical YAML-like state file (`00.00_tracking_changelog.md`). If you get interrupted or want to backtrack a decision made 3 phases ago, the engine seamlessly patches the documentation and resumes the interview without losing any context.
 
