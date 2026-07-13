@@ -16,7 +16,7 @@ SDD-Interview forces you to think about edge cases, compliance, and event flows 
 ### 🌟 Key Selling Points
 - **No-Backend & Cost Zero:** Runs entirely via CLI and Markdown in your IDE. Zero cloud infrastructure costs.
 - **Fluid Mentorship UX:** Replaces rigid text generators with an interactive, consultative chat.
-- **Anti-Amnesia Lifecycle (State Machine):** Physical Markdown files are saved progressively. You can pause, resume (`/resume`), and safely backtrack without the AI losing context.
+- **Anti-Amnesia Lifecycle (State Machine):** Physical Markdown files are saved progressively. You can pause, resume (`/interview resume <path>`), and safely backtrack without the AI losing context.
 - **Legacy Ingestion (Docs Mode):** Point the AI to your legacy wiki, and it will ingest the context to pre-fill drafts for you automatically.
 - **Compliance by Design:** 100% local text generation avoids Vendor Lock-In and protects your IP (Intellectual Property) from unauthorized scraping.
 
@@ -76,5 +76,7 @@ We are constantly improving the SKILL to handle enterprise-grade and mission-cri
 - **SEO & Marketing:** Automated SEO & Metadata strategic planning.
 
 ---
-## 📝 License
+## 📝 License & Attribution
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Attribution Requirement:** While the MIT license allows you to use, modify, and distribute this skill freely, you **must** include the original copyright notice and provide a clear attribution link back to this official repository (`https://github.com/GalegO/SDD-Interview`) in any public forks, ports, or derived works.
