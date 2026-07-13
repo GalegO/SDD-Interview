@@ -86,7 +86,7 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 
 ### 🎛️ A La Carte Selection
 You are **not** obligated to go through all 13 methodology phases and 83 topics every single time. At the beginning of the interview, you can select exactly which methodologies you want to use (e.g., only DDD and CQRS for a specific microservice). 
-However, **we strongly advise running the full, complete interview at least once**. Doing so will show you exactly what gets asked and how each artifact is generated, building your intuition for future projects. Remember: *the more questions you answer, the higher the quality of the final consolidated architecture.*
+However, **we strongly advise running the full, complete interview at least once**. By experiencing the entire flow and knowing exactly what content is generated in each phase, you will easily be able to determine which specific methodologies you will actually need for your future projects. Remember: *the more questions you answer, the higher the quality of the final consolidated architecture.*
 
 ## 🗺️ Roadmap (Future Horizons)
 
