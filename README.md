@@ -54,12 +54,22 @@ SDD-Interview forces you to think about edge cases, compliance, and event flows 
 | **TOTAL** | **23** | **83** |
 
 #### 📋 Covered Topics Details (Exhaustive Map of 83 Topics):
-- **System:** Initial Setup (State Machine), Criteria Analysis (QA), Summary and Next Action (Handoffs).
-- **Discovery & Business:** Identification, Technical Scope and Platform, Identity. Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains. What?, Who?, When?, Where?, Why?, How? (5W1H). Must Have, Should Have, Could Have, Won't Have (MoSCoW).
-- **Requirements & DDD:** Macro Context (Epic), Business View (CEO Opinion), Atomic Subtask Description, Basic Acceptance Criteria, Constraints and Assumptions. System Actors, Aggregates and Entities (Domain Entities), Domain Commands and Events, Asynchronous Events / Reactions. Architectural Domain Decisions, Bounded Contexts Involved, Ubiquitous Language, Boundaries and Interactions. Solution Proposal Summary, Conceptual Technical Approach, Trade-offs, Discarded Alternatives. Database Tasks, Backend Tasks, Frontend Tasks, Infrastructure/Jobs Tasks.
-- **Architecture & Patterns:** Pattern Evaluation (CQRS), New Tables / Modifications, Relationships, Indexes, Data Engineer Validation, Specific Business Rules, API Contracts, Expected Error Codes. Core Isolation (Clean Architecture), Ports and Adapters, Component Topology, C4 Diagram, Protections and Avoided Violations. Main Sequence Flow, Asynchronous Flows (EDD), Messaging Strategy, Caching Strategy.
-- **Quality & Design:** Responsive Approach and Screen Limits, Structure and Hierarchy, Colors and Typography, Interface States and Feedback (Micro-interactions), Cognitive Accessibility (A11y), Visual References. BDD Scenarios (Happy Path, Logical Exceptions Handling, Concurrency and Integrity Constraints). Integration Tests, Frontend and UI Tests, Database Tests, Native Performance Tests, Edge Cases and Compliance. Privacy Assessment (LGPD/GDPR), Contractual and Tax Aspects, Legal Fallback.
-- **Output & Metrics:** Project Overview, Business Value and Goals, High-Level Architecture, Main Technical Decisions and Trade-offs, Critical Risks and Compliance Constraints. Target Audience and Pain Points, Elevator Pitch (Value Proposition), Main Selling Points (Marketing Hooks). Project Summary (Index), Methodologies and Artifacts Index, Legal Aspects, Risk and Compliance. Timeline, Volume of Outputs, Telemetry and AI Consumption, Operation Curiosities (KPIs).
+- **System (Tracking & QA):** Initial Setup (State Machine), Criteria Analysis (QA), Summary and Next Action (Handoffs).
+- **00. Initial Discovery:** Identification, Technical Scope and Platform, Identity.
+- **01. Business Model Canvas:** Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains.
+- **02. 5W1H Discovery:** What?, Who?, When?, Where?, Why?, How?.
+- **03. MoSCoW Prioritization:** Must Have, Should Have, Could Have, Won't Have.
+- **04. Epic Breakdown:** Macro Context (Epic), Business View (CEO Opinion), Atomic Subtask Description, Basic Acceptance Criteria, Constraints and Assumptions.
+- **05. Domain-Driven Design (DDD):** System Actors, Aggregates/Entities, Commands/Events, Asynchronous Reactions, Architectural Decisions, Bounded Contexts, Ubiquitous Language, Boundaries/Interactions, Solution Summary, Technical Approach, Trade-offs, Discarded Alternatives, Database/Backend/Frontend/Infra Tasks.
+- **06. CQRS:** Pattern Evaluation, New Tables/Modifications, Relationships, Indexes, Data Engineer Validation, Specific Business Rules, API Contracts, Expected Error Codes.
+- **07. Clean Architecture (SDD):** Core Isolation, Ports and Adapters, Component Topology, C4 Diagram, Protections and Avoided Violations.
+- **08. Event-Driven (EDD):** Main Sequence Flow, Asynchronous Flows (EDD), Messaging Strategy, Caching Strategy.
+- **09. UI/UX Atomic Design:** Responsive Approach, Structure/Hierarchy, Colors/Typography, Interface States/Feedback, Cognitive Accessibility (A11y), Visual References.
+- **10. BDD Scenarios:** Happy Path, Logical Exceptions Handling, Concurrency and Integrity Constraints.
+- **11. TDD Test Strategy:** Integration Tests, Frontend/UI Tests, Database Tests, Native Performance Tests, Edge Cases/Compliance.
+- **12. Legal & Compliance:** Privacy Assessment (LGPD/GDPR), Contractual and Tax Aspects, Legal Fallback.
+- **13. Executive Pitch:** Project Overview, Business Value/Goals, High-Level Architecture, Technical Decisions/Trade-offs, Critical Risks/Compliance, Target Audience/Pain Points, Elevator Pitch, Main Selling Points.
+- **Final Outputs (Index & KPIs):** Project Summary (Index), Methodologies/Artifacts Index, Legal Aspects/Risk, Timeline, Volume of Outputs, Telemetry/AI Consumption, Operation Curiosities (KPIs).
 
 ---
 
