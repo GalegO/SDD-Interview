@@ -11,7 +11,9 @@ By answering sequential questions, the AI progressively generates comprehensive,
 ## 🚀 Why SDD-Interview?
 
 Building complex software without mapping it first leads to technical debt, architectural anxiety, and high refactoring costs. 
-SDD-Interview forces you to think about edge cases, compliance, and event flows *beforehand*. It challenges your reasoning, validates your logic, and outputs up to **23 distinct enterprise-grade architectural artifacts** covering 15 structural phases.
+**No other tool on the market forces you, the user, to critically think and validate your own ideas quite like this.** It challenges your reasoning, validates your logic, and outputs up to **23 distinct enterprise-grade architectural artifacts** covering 15 structural phases—all consolidated in a single place.
+
+Whether you are designing a completely **new project**, scoping out a **new feature**, or trying to untangle a **complex bug**, the interview naturally exposes blind spots and edge cases you hadn't even considered at the start.
 
 ### 🌟 Key Points
 - **No-Backend & Cost Zero:** Runs entirely via CLI and Markdown in your IDE. Zero cloud infrastructure costs.
@@ -26,8 +28,8 @@ SDD-Interview forces you to think about edge cases, compliance, and event flows 
 
 **SDD-Interview** is not a simple prompt generator; it is a stateful, agentic engine that operates dynamically within your IDE.
 
-- **The Mechanics & Tone:** The AI adopts the persona of a strict, highly analytical Chief Software Architect. It conducts a step-by-step interview, asking one question at a time. It challenges your assumptions, validates your logic, and forces you to think strategically.
-- **Fluid Flexibility & Non-Linearity:** Despite being highly structured, the interview feels like a natural chat. The system is not a rigid top-down script. You are free to change your mind, brainstorm, or abruptly say, "Actually, let's based on this question, let's change the artefact XYZ previously generated.". The AI is intelligent enough to retroactively edit previously generated artifacts without messing up the current context or the overall flow.
+- **The Mechanics & Tone (A True Partner):** The AI adopts the persona of a strict, highly analytical Chief Software Architect. It conducts a cadenced, step-by-step interview, asking one question at a time. This paced rhythm ensures the AI rarely loses context or hallucinates. The flow is so natural that the AI quickly feels like a true partner, helping you discover critical edge cases together.
+- **Fluid Flexibility & Non-Linearity:** Despite being highly structured, the interview feels like a natural chat. The system is not a rigid top-down script. You are free to change your mind, brainstorm, or abruptly say, "Actually, based on this question, let's change the artifact XYZ previously generated." The AI is intelligent enough to retroactively edit previously generated artifacts without messing up the current context or the overall flow.
 - **Cross-Referencing (Semantic JOINs):** As you progress through the phases, the skill intelligently reads the previously generated Markdown files. This ensures that a database decision made in Phase 5 (DDD) perfectly aligns with the UI requirements mapped in Phase 9, preventing architectural contradictions.
 - **Safeguards & State Machine:** The entire process is tracked by a physical YAML-like state file (`00.00_tracking_changelog.md`). If you get interrupted or want to backtrack a decision made 3 phases ago, the engine seamlessly patches the documentation and resumes the interview without losing any context.
 
@@ -81,6 +83,10 @@ SDD-Interview forces you to think about edge cases, compliance, and event flows 
    - `/interview docs <path> <alias>` - Start a project by ingesting legacy context first.
    - `/interview resume <path>` - Resume an interrupted interview.
    - `/interview help` - View detailed information on the methodologies.
+
+### 🎛️ A La Carte Selection
+You are **not** obligated to go through all 13 methodology phases and 83 topics every single time. At the beginning of the interview, you can select exactly which methodologies you want to use (e.g., only DDD and CQRS for a specific microservice). 
+However, **we strongly advise running the full, complete interview at least once**. Doing so will show you exactly what gets asked and how each artifact is generated, building your intuition for future projects. Remember: *the more questions you answer, the higher the quality of the final consolidated architecture.*
 
 ## 🗺️ Roadmap (Future Horizons)
 
