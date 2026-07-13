@@ -8,12 +8,12 @@ By answering sequential questions, the AI progressively generates comprehensive,
 
 ---
 
-## 🚀 Why SDD-Interview? (Elevator Pitch)
+## 🚀 Why SDD-Interview?
 
 Building complex software without mapping it first leads to technical debt, architectural anxiety, and high refactoring costs. 
 SDD-Interview forces you to think about edge cases, compliance, and event flows *beforehand*. It challenges your reasoning, validates your logic, and outputs up to **23 distinct enterprise-grade architectural artifacts** covering 15 structural phases.
 
-### 🌟 Key Selling Points
+### 🌟 Key Points
 - **No-Backend & Cost Zero:** Runs entirely via CLI and Markdown in your IDE. Zero cloud infrastructure costs.
 - **Fluid Mentorship UX:** Replaces rigid text generators with an interactive, consultative chat.
 - **Anti-Amnesia Lifecycle (State Machine):** Physical Markdown files are saved progressively. You can pause, resume (`/interview resume <path>`), and safely backtrack without the AI losing context.
@@ -22,7 +22,13 @@ SDD-Interview forces you to think about edge cases, compliance, and event flows 
 
 ---
 
-## ✨ How It Works (The V2 Engine)
+## ✨ How It Works
+
+**SDD-Interview** is not a simple prompt generator; it is a stateful, agentic engine that operates dynamically within your IDE.
+
+- **The Mechanics & Tone:** The AI adopts the persona of a strict, highly analytical Chief Software Architect. It conducts a step-by-step interview, asking one question at a time. It challenges your assumptions, validates your logic, and forces you to think strategically.
+- **Cross-Referencing (Semantic JOINs):** As you progress through the phases, the skill intelligently reads the previously generated Markdown files. This ensures that a database decision made in Phase 5 (DDD) perfectly aligns with the UI requirements mapped in Phase 9, preventing architectural contradictions.
+- **Safeguards & State Machine:** The entire process is tracked by a physical YAML-like state file (`00.00_tracking_changelog.md`). If you get interrupted or want to backtrack a decision made 3 phases ago, the engine seamlessly patches the documentation and resumes the interview without losing any context.
 
 ### 🗂️ Methodologies & Outputs
 
