@@ -1,16 +1,28 @@
 # 🧠👔 SDD-Interview (Software Design & Discovery)
 
-An advanced, interactive **Software Architect and Product Manager** skill for Agentic AI environments. 
+**Your Agentic AI Chief Software Architect & Mentor.** 
 
-Before you write a single line of code, **SDD-Interview** guides you through a structured, multi-phase interview process to extract business requirements, technical specifications, and design decisions. It translates your answers into comprehensive, interconnected Markdown-based architectural documentation.
+Before writing a single line of code, **SDD-Interview** acts as your Senior Consultant. It guides developers, technical leads, and founders through a structured, multi-phase interview to automatically extract business rules, technical specifications, and design patterns. Say goodbye to the "initial chaos" of software development.
+
+By answering sequential questions, the AI progressively generates comprehensive, interconnected Markdown-based architectural documentation (DDD, BDD, TDD, CQRS, Clean Architecture, and more) inside your IDE.
 
 ---
 
-## ✨ How It Works
+## 🚀 Why SDD-Interview? (Elevator Pitch)
 
-The SKILL acts as a senior consultant. You simply trigger it and answer its questions sequentially. Behind the scenes, it uses reactive loops to generate physical artifacts progressively. 
+Building complex software without mapping it first leads to technical debt, architectural anxiety, and high refactoring costs. 
+SDD-Interview forces you to think about edge cases, compliance, and event flows *beforehand*. It challenges your reasoning, validates your logic, and outputs up to **23 distinct enterprise-grade architectural artifacts** covering 15 structural phases.
 
-Based on the highly granular **V2 Engine**, it can generate up to **23 distinct architectural artifacts**, covering the entire software lifecycle.
+### 🌟 Key Selling Points
+- **No-Backend & Cost Zero:** Runs entirely via CLI and Markdown in your IDE. Zero cloud infrastructure costs.
+- **Fluid Mentorship UX:** Replaces rigid text generators with an interactive, consultative chat.
+- **Anti-Amnesia Lifecycle (State Machine):** Physical Markdown files are saved progressively. You can pause, resume (`/resume`), and safely backtrack without the AI losing context.
+- **Legacy Ingestion (Docs Mode):** Point the AI to your legacy wiki, and it will ingest the context to pre-fill drafts for you automatically.
+- **Compliance by Design:** 100% local text generation avoids Vendor Lock-In and protects your IP (Intellectual Property) from unauthorized scraping.
+
+---
+
+## ✨ How It Works (The V2 Engine)
 
 ### 🗂️ Methodologies & Outputs
 
@@ -34,29 +46,17 @@ Based on the highly granular **V2 Engine**, it can generate up to **23 distinct 
 | **Final Outputs (Index & KPIs)** | 2 | 3 |
 | **TOTAL** | **23** | **83** |
 
-#### 📋 Covered Topics Details:
-- **System:** Handoffs, State Tracking, Automated QA, Inconsistency Checks.
-- **Discovery & Business:** Project Goals, Tech Stack, Branding, Value Proposition, Customer Segments, Revenue Streams, 5W1H (What, Why, Who, When, Where, How), MoSCoW.
-- **Requirements & DDD:** User Stories, Acceptance Criteria, Event Storming, Bounded Contexts, Aggregate Roots, Dev Tasks.
-- **Architecture & Patterns:** Read/Write Models, Eventual Consistency, CQRS Commands/Queries, Ports, Adapters, Core Business Rules, EDD Asynchronous Communication, Message Brokers.
-- **Quality & Design:** Atomic Design Tokens (Atoms, Molecules, Organisms), BDD Scenarios, TDD Unit/Integration/E2E Policies, LGPD/GDPR, PII Handling.
-- **Output & Metrics:** C-Level Business Overview, Pitch Deck, Session Insights, Table of Contents.
+#### 📋 Covered Topics Details (Exhaustive Map of 83 Topics):
+- **System:** Initial Setup (State Machine), Criteria Analysis (QA), Summary and Next Action (Handoffs).
+- **Discovery & Business:** Identification, Technical Scope and Platform, Identity. Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains. What?, Who?, When?, Where?, Why?, How? (5W1H). Must Have, Should Have, Could Have, Won't Have (MoSCoW).
+- **Requirements & DDD:** Macro Context (Epic), Business View (CEO Opinion), Atomic Subtask Description, Basic Acceptance Criteria, Constraints and Assumptions. System Actors, Aggregates and Entities (Domain Entities), Domain Commands and Events, Asynchronous Events / Reactions. Architectural Domain Decisions, Bounded Contexts Involved, Ubiquitous Language, Boundaries and Interactions. Solution Proposal Summary, Conceptual Technical Approach, Trade-offs, Discarded Alternatives. Database Tasks, Backend Tasks, Frontend Tasks, Infrastructure/Jobs Tasks.
+- **Architecture & Patterns:** Pattern Evaluation (CQRS), New Tables / Modifications, Relationships, Indexes, Data Engineer Validation, Specific Business Rules, API Contracts, Expected Error Codes. Core Isolation (Clean Architecture), Ports and Adapters, Component Topology, C4 Diagram, Protections and Avoided Violations. Main Sequence Flow, Asynchronous Flows (EDD), Messaging Strategy, Caching Strategy.
+- **Quality & Design:** Responsive Approach and Screen Limits, Structure and Hierarchy, Colors and Typography, Interface States and Feedback (Micro-interactions), Cognitive Accessibility (A11y), Visual References. BDD Scenarios (Happy Path, Logical Exceptions Handling, Concurrency and Integrity Constraints). Integration Tests, Frontend and UI Tests, Database Tests, Native Performance Tests, Edge Cases and Compliance. Privacy Assessment (LGPD/GDPR), Contractual and Tax Aspects, Legal Fallback.
+- **Output & Metrics:** Project Overview, Business Value and Goals, High-Level Architecture, Main Technical Decisions and Trade-offs, Critical Risks and Compliance Constraints. Target Audience and Pain Points, Elevator Pitch (Value Proposition), Main Selling Points (Marketing Hooks). Project Summary (Index), Methodologies and Artifacts Index, Legal Aspects, Risk and Compliance. Timeline, Volume of Outputs, Telemetry and AI Consumption, Operation Curiosities (KPIs).
 
-## ⚖️ Pros and Cons
+---
 
-### ✅ Pros (Why use it?)
-- **Anti-Amnesia Lifecycle:** Generates physical Markdown files progressively. If you drop the session, nothing is lost. Context is saved continuously.
-- **Context Recovery & Fast-Track:** Easily resume an interrupted interview (`/interview resume`) or point the AI to a legacy wiki to ingest context automatically (`/interview docs`).
-- **Forces Robust Design:** Prevents you from jumping into "raw" code by making you think about edge cases, compliance, and event flows beforehand.
-- **Traceability:** It maintains a strict `00.00_tracking_changelog.md` to map agent handoffs and decisions.
-- **Backtracking Supported:** Change your mind about a database choice made 3 phases ago? The AI will silently patch the previous documents and resume without resetting.
-
-### ❌ Cons (When NOT to use it)
-- **Overkill for Simple Scripts:** If you are building a quick throw-away script or a micro-tool, this extensive process is too heavy.
-- **Time Consuming:** A full V2 interview requires deep thinking and time to answer properly.
-- **Garbage In, Garbage Out:** The quality of the documentation relies heavily on how detailed and thoughtful your answers are during the interview.
-
-## 🚀 Installation & Usage
+## 🛠️ Usage
 
 1. Copy the `interview` folder into your agent's skills directory.
 2. Trigger the skill in your AI interface by typing:
@@ -68,11 +68,10 @@ Based on the highly granular **V2 Engine**, it can generate up to **23 distinct 
 ## 🗺️ Roadmap (Future Horizons)
 
 We are constantly improving the SKILL to handle enterprise-grade and mission-critical architectures. Upcoming topics:
-
-- **Domain-Driven Design (DDD):** Domain Types Classification and Context Mapping.
-- **CQRS & Data Modeling:** Schema Migrations strategies.
-- **SDD & Clean Architecture:** Cross-Cutting Concerns integration.
-- **Event-Driven Design (EDD):** Resilience, Idempotency, and Event Serialization Contracts.
+- **DDD:** Domain Types Classification and Context Mapping.
+- **CQRS:** Schema Migrations strategies.
+- **Clean Architecture:** Cross-Cutting Concerns integration.
+- **EDD:** Resilience, Idempotency, and Event Serialization Contracts.
 - **Observability:** Distributed Tracing and Correlation IDs.
 - **SEO & Marketing:** Automated SEO & Metadata strategic planning.
 
