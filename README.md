@@ -105,10 +105,6 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 - **Aider / OpenHands (CLI):** Add the skill file to the chat context using `/add interview/SKILL.md` and trigger it with `/interview new <alias>`.
 - **Other LLMs (ChatGPT / Claude Web):** While designed for IDE integration, you can upload the `SKILL.md` and `Templates/` directly into a custom GPT or Claude Project and prompt it to act based on those rules.
 
-### ⚠️ Limitations & Not Supported
-- **Microsoft Copilot 365 / Standard Web Chatbots:** Assistants without direct read/write access to your local filesystem (like Copilot for M365) cannot automatically generate the `.md` files in your project. You can still chat with them, but you must manually copy and paste the generated content into files.
-- **Low-Context Models:** Models with very small context windows may struggle to maintain the state of the `00.00_tracking_changelog.md` deep into the interview. We strongly recommend using modern models (e.g., Claude 3.5 Sonnet, GPT-4o, Gemini 1.5 Pro).
-
 ## 🛠️ Usage
 
 Trigger the skill in your AI interface by typing:
@@ -117,12 +113,16 @@ Trigger the skill in your AI interface by typing:
    - `/interview resume <path>` - Resume an interrupted interview.
    - `/interview help` - View detailed information on the methodologies.
 
-### 🎯 Real Example (Demo V2)
-To see exactly what the output of this skill looks like, check out the **[Demo V2](./examples/demo-v2/README.md)** directory. It contains 23 architectural artifacts generated during a real, extensive interview session. This is a great place to understand the depth and structure of the AI's output.
-
 ### 🎛️ A La Carte Selection
 You are **not** obligated to go through all 13 methodology phases and 83 topics every single time. At the beginning of the interview, you can select exactly which methodologies you want to use (e.g., only DDD and CQRS for a specific microservice). 
 However, **we strongly advise running the full, complete interview at least once**. By experiencing the entire flow and knowing exactly what content is generated in each phase, you will easily be able to determine if those methodologies will be needed in the future or not. Remember: *the more questions you answer, the higher the quality of the final consolidated architecture.*
+
+### 🎯 Real Example (Demo V2)
+To see exactly what the output of this skill looks like, check out the **[Demo V2](./examples/demo-v2/README.md)** directory. It contains 23 architectural artifacts generated during a real, extensive interview session. This is a great place to understand the depth and structure of the AI's output.
+
+### ⚠️ Limitations & Not Supported
+- **Microsoft Copilot 365 / Standard Web Chatbots:** Assistants without direct read/write access to your local filesystem (like Copilot for M365) cannot automatically generate the `.md` files in your project. You can still chat with them, but you must manually copy and paste the generated content into files.
+- **Low-Context Models:** Models with very small context windows may struggle to maintain the state of the `00.00_tracking_changelog.md` deep into the interview. We strongly recommend using modern models (e.g., Claude 3.5 Sonnet, GPT-4o, Gemini 3.1 (Low)).
 
 ## 🗺️ Roadmap (Future Horizons)
 
