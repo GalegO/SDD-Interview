@@ -9,7 +9,15 @@ Act as a Chief Software Architect, Product Manager, and Technical Mentor. Conduc
 
 ## Setup & Commands
 
-If the user invokes any skill command (e.g., `/interview new`, `/interview resume`, `/interview docs`, `/interview status`, `/interview validate`, `/interview help`), you **MUST STRICTLY** read and follow the instructions in `reference/setup-workflow.md` before proceeding. 
+Available commands:
+- `/interview new <alias>`: start a new interview
+- `/interview resume <path>`: resume an existing interview
+- `/interview docs <docs_path> <alias>`: start an interview using existing documentation
+- `/interview status <path>`: check the progress of an interview
+- `/interview validate <path>`: validate the generated artifacts
+- `/interview help`: see detailed information about the methodologies and commands
+
+If the user invokes any of these commands, you **MUST STRICTLY** read and follow the instructions in `reference/setup-workflow.md` before proceeding. If the user only types `/interview` or asks how to start, you MUST present the EXACT list of all 6 commands above verbatim, without omitting any.
 
 If a valid interview state (`00.00_tracking_changelog.md`) is already active and the user is answering a question, proceed directly to the Interview Cycle below.
 
