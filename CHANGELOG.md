@@ -15,6 +15,8 @@ All notable changes to the interview skill are documented in this file.
 
 ### Changed
 
+- Explicitly listed all available commands with short descriptions in the `SKILL.md` root prompt to prevent LLMs from aggressively summarizing and omitting setup options (UX improvement).
+- Added proactive typo/convention correction rule to the Draft Validation block (Point 4), instructing the AI to identify and gently propose corrections for hardcoded naming errors (e.g., project names) when presenting drafts.
 - Extracted setup and command logic from `SKILL.md` to a separate `reference/setup-workflow.md` file (lazy-loading) to significantly reduce context window overhead during the interview loop.
 - Merged Phase 14 (Marketing & Commercial Pitch) into Phase 13, creating a consolidated "Executive Summary & Pitch" phase (`phases/13_executive_pitch.md`) that generates both `98.01_executive_summary_business_view.md` and `98.02_marketing_pitch_deck.md` sequentially.
 - Aligned the `title` frontmatter field of all template files in `Templates/` to match their actual filenames (excluding `.md`), resolving duplicate OKF indexing collisions.
