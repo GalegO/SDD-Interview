@@ -35,8 +35,8 @@ After setup, read [Templates/00.00_tracking_changelog.md](Templates/00.00_tracki
    - **Question Header:** Format strictly as an H2 or H3 (e.g., `## <Methodology Name>: Question <current> of <total>:`).
    - **Semantic Formatting:** Apply strict markdown styling according to [reference/markdown-guidelines.md](reference/markdown-guidelines.md).
    - **Suggestions:** Provide two or three contextual suggestions at the end, wrapped in parentheses.
-4. **CRITICAL RULE - Draft Validation (Mandatory):** You are STRICTLY PROHIBITED from directly writing or modifying any physical `.md` file with new content before the user has reviewed it. You MUST first present a complete Markdown draft of the proposed content in the chat. Challenge shallow answers and continuously iterate on this draft based on user feedback.
-5. **Only AFTER** the draft is explicitly approved by the user, write the finalized content directly into the generated document. Then, update `current_topic_id` and `covered_topics` in [00.00_tracking_changelog.md](00.00_tracking_changelog.md) to checkpoint progress (do not duplicate the answer content in the changelog, only update the structural state).
+4. **CRITICAL RULE - Draft Validation (Mandatory):** You are STRICTLY PROHIBITED from directly writing or modifying any physical `.md` file with new content before the user has reviewed it. You MUST first present a complete Markdown draft of the proposed content in the chat. Challenge shallow answers and continuously iterate on this draft based on user feedback. **STOP YOUR TURN immediately after presenting the draft. DO NOT ask the next question in the same message. You MUST wait for the user to explicitly approve the draft.**
+5. **Only AFTER** the draft is explicitly approved by the user, write the finalized content directly into the generated document. Then, update `current_topic_id` and `covered_topics` in [00.00_tracking_changelog.md](00.00_tracking_changelog.md) to checkpoint progress (do not duplicate the answer content in the changelog, only update the structural state). **Only after writing the file should you proceed to ask the next question.**
 6. When every topic for an output document is covered, finalize it and update `generated_files`.
 7. When all outputs in a methodology exist, add its ID to `completed_methodologies` and continue.
 
@@ -50,6 +50,8 @@ For `/interview status <path>`, read `interview_state` and report: absolute path
 
 For `/interview validate <path>`, validate every selected methodology according to [reference/validate.md](reference/validate.md) and physically create [00_validation_report.md](00_validation_report.md). Do not overwrite or alter interview outputs other than this report.
 ## References and behavior
+
+**Pacing & Patience:** Never rush the interview. The user dictates the pace, not you. Do not combine multiple questions into one message or skip steps to finish faster. Follow the turn-based conversational flow strictly: ask one question, wait for the response; propose one draft, wait for approval.
 
 [00.00_tracking_changelog.md](00.00_tracking_changelog.md) is the source of truth. Its YAML `interview_state` contains mode, language, destination and documentation source paths, selected and completed methodologies, current methodology and topic, covered topics, generated files, OKF flag, and status.
 
