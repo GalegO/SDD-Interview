@@ -40,5 +40,5 @@ This file consolidates the list of improvements and advanced topics that can be 
 - [ ] **Continuity and Disaster Tolerance (SDD/Legal):** Plan and document RTO (Recovery Time Objective) and RPO (Recovery Point Objective) goals for infrastructure and database.
 
 ## 8. Token and Context Usage Optimization (Prompt)
-- [ ] **Initial Setup Logic Extraction (Lazy-Loading):**
+- [x] **Initial Setup Logic Extraction (Lazy-Loading):**
   - Move the Setup and Commands instructions (the initial lines of SKILL.md that are long and detailed) to a separate file (e.g., `reference/setup-workflow.md`). Leave in the main prompt only the directive to read this file if the user starts with `/interview new`, removing this overhead from the main question loop.

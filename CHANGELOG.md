@@ -15,6 +15,7 @@ All notable changes to the interview skill are documented in this file.
 
 ### Changed
 
+- Extracted setup and command logic from `SKILL.md` to a separate `reference/setup-workflow.md` file (lazy-loading) to significantly reduce context window overhead during the interview loop.
 - Merged Phase 14 (Marketing & Commercial Pitch) into Phase 13, creating a consolidated "Executive Summary & Pitch" phase (`phases/13_executive_pitch.md`) that generates both `98.01_executive_summary_business_view.md` and `98.02_marketing_pitch_deck.md` sequentially.
 - Aligned the `title` frontmatter field of all template files in `Templates/` to match their actual filenames (excluding `.md`), resolving duplicate OKF indexing collisions.
 - Updated templates `06.01_cqrs_schema.md`, `07.01_sdd_clean_architecture.md`, and `08.01_edd_logic_flows.md` with dedicated sections to cover all mandatory topics requested in the methodology scripts (CQRS pattern assessment, core isolation, ports and adapters, and messaging strategy).
