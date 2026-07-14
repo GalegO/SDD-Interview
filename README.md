@@ -57,17 +57,17 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 |---|:---:|:---:|
 | **System (Tracking & QA)** | 2 | 4 |
 | **00. Initial Discovery** | 1 | 4 |
-| **01. Business Model Canvas** | 1 | 9 |
+| **01. Business Model Canvas (BMC)** | 1 | 9 |
 | **02. 5W1H Discovery** | 1 | 6 |
 | **03. MoSCoW Prioritization** | 1 | 4 |
 | **04. Epic Breakdown** | 1 | 3 |
 | **05. Domain-Driven Design (DDD)** | 4 | 12 |
-| **06. CQRS** | 2 | 6 |
+| **06. Command Query Responsibility Segregation (CQRS)** | 2 | 6 |
 | **07. Clean Architecture (SDD)** | 1 | 4 |
-| **08. Event-Driven (EDD)** | 1 | 4 |
+| **08. Event-Driven Design (EDD)** | 1 | 4 |
 | **09. UI/UX Atomic Design** | 1 | 5 |
-| **10. BDD Scenarios** | 1 | 3 |
-| **11. TDD Test Strategy** | 1 | 4 |
+| **10. Behavior-Driven Development (BDD)** | 1 | 3 |
+| **11. Test-Driven Development (TDD)** | 1 | 4 |
 | **12. Legal & Compliance** | 1 | 4 |
 | **13. Executive Pitch** | 2 | 8 |
 | **Final Outputs (Index & KPIs)** | 2 | 3 |
@@ -76,17 +76,17 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 #### 📋 Detailed Breakdown of All 83 Topics
 - **System (Tracking & QA):** Initial Setup (State Machine), Criteria Analysis (QA), Summary and Next Action (Handoffs).
 - **00. Initial Discovery:** Identification, Technical Scope and Platform, Identity.
-- **01. Business Model Canvas:** Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains.
+- **01. Business Model Canvas (BMC):** Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains.
 - **02. 5W1H Discovery:** What?, Who?, When?, Where?, Why?, How?.
 - **03. MoSCoW Prioritization:** Must Have, Should Have, Could Have, Won't Have.
 - **04. Epic Breakdown:** Macro Context (Epic), Business View (CEO Opinion), Atomic Subtask Description, Basic Acceptance Criteria, Constraints and Assumptions.
 - **05. Domain-Driven Design (DDD):** System Actors, Aggregates/Entities, Commands/Events, Asynchronous Reactions, Architectural Decisions, Bounded Contexts, Ubiquitous Language, Boundaries/Interactions, Solution Summary, Technical Approach, Trade-offs, Discarded Alternatives, Database/Backend/Frontend/Infra Tasks.
-- **06. CQRS:** Pattern Evaluation, New Tables/Modifications, Relationships, Indexes, Data Engineer Validation, Specific Business Rules, API Contracts, Expected Error Codes.
+- **06. Command Query Responsibility Segregation (CQRS):** Pattern Evaluation, New Tables/Modifications, Relationships, Indexes, Data Engineer Validation, Specific Business Rules, API Contracts, Expected Error Codes.
 - **07. Clean Architecture (SDD):** Core Isolation, Ports and Adapters, Component Topology, C4 Diagram, Protections and Avoided Violations.
-- **08. Event-Driven (EDD):** Main Sequence Flow, Asynchronous Flows (EDD), Messaging Strategy, Caching Strategy.
+- **08. Event-Driven Design (EDD):** Main Sequence Flow, Asynchronous Flows (EDD), Messaging Strategy, Caching Strategy.
 - **09. UI/UX Atomic Design:** Responsive Approach, Structure/Hierarchy, Colors/Typography, Interface States/Feedback, Cognitive Accessibility (A11y), Visual References.
-- **10. BDD Scenarios:** Happy Path, Logical Exceptions Handling, Concurrency and Integrity Constraints.
-- **11. TDD Test Strategy:** Integration Tests, Frontend/UI Tests, Database Tests, Native Performance Tests, Edge Cases/Compliance.
+- **10. Behavior-Driven Development (BDD):** Happy Path, Logical Exceptions Handling, Concurrency and Integrity Constraints.
+- **11. Test-Driven Development (TDD):** Integration Tests, Frontend/UI Tests, Database Tests, Native Performance Tests, Edge Cases/Compliance.
 - **12. Legal & Compliance:** Privacy Assessment (LGPD/GDPR), Contractual and Tax Aspects, Legal Fallback.
 - **13. Executive Pitch:** Project Overview, Business Value/Goals, High-Level Architecture, Technical Decisions/Trade-offs, Critical Risks/Compliance, Target Audience/Pain Points, Elevator Pitch, Main Selling Points.
 - **Final Outputs (Index & KPIs):** Project Summary (Index), Methodologies/Artifacts Index, Legal Aspects/Risk, Timeline, Volume of Outputs, Telemetry/AI Consumption, Operation Curiosities (KPIs).
@@ -95,7 +95,19 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 
 ## 📦 Installation
 
-1. Copy the `interview` folder into your agent's skills directory (or the designated location for your specific AI CLI/IDE).
+1. Copy the `interview` folder into your agent's skills directory (or the designated location for your specific AI CLI/IDE) and reload your interface or ask the AI to load and use it. 
+
+### Examples for Popular AI Agents:
+- **Antigravity IDE:** Run `antigravity install skills/interview` or copy the folder into `.antigravity/skills/`.
+- **Claude Code (CLI):** Run `claude` in your terminal and type: *"Read the instructions inside `interview/SKILL.md` and start a new interview."*
+- **Cline / Roo Code (VS Code):** Copy the folder into your project (or global `.cline/skills/` directory) and ask the agent to `@read interview/SKILL.md`. 
+- **Cursor / GitHub Copilot:** Drag the `interview` folder into your workspace, open the chat, and type: *"Read the instructions inside `interview/SKILL.md` and start a new interview."*
+- **Aider / OpenHands (CLI):** Add the skill file to the chat context using `/add interview/SKILL.md` and trigger it with `/interview new <alias>`.
+- **Other LLMs (ChatGPT / Claude Web):** While designed for IDE integration, you can upload the `SKILL.md` and `Templates/` directly into a custom GPT or Claude Project and prompt it to act based on those rules.
+
+### ⚠️ Limitations & Not Supported
+- **Microsoft Copilot 365 / Standard Web Chatbots:** Assistants without direct read/write access to your local filesystem (like Copilot for M365) cannot automatically generate the `.md` files in your project. You can still chat with them, but you must manually copy and paste the generated content into files.
+- **Low-Context Models:** Models with very small context windows may struggle to maintain the state of the `00.00_tracking_changelog.md` deep into the interview. We strongly recommend using modern models (e.g., Claude 3.5 Sonnet, GPT-4o, Gemini 1.5 Pro).
 
 ## 🛠️ Usage
 
