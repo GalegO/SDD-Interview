@@ -38,6 +38,7 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 - **Anti-Amnesia Lifecycle (State Machine):** Physical Markdown files are saved progressively. You can pause, resume (`/interview resume <path>`), and safely backtrack without the AI losing context.
 - **Legacy Ingestion (Docs Mode):** Point the AI to your legacy wiki, and it will ingest the context to pre-fill drafts for you automatically.
 - **Compliance by Design:** 100% local text generation avoids Vendor Lock-In and protects your IP (Intellectual Property) from unauthorized scraping.
+- **Multilingual by Default:** The interview can be conducted and followed in any language supported by your AI, and the artifacts can be generated in the same language for easier reading in your native language.
 
 ---
 

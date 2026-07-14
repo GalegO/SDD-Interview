@@ -1,41 +1,44 @@
-# TODO: Metodologias e Tópicos Arquiteturais Avançados (Enterprise/Missão Crítica)
+# TODO: Advanced Architectural Methodologies and Topics (Enterprise/Mission-Critical)
 
-Este arquivo consolida a lista de melhorias e tópicos avançados que podem ser adicionados futuramente às metodologias da Skill para elevar o nível da documentação gerada para projetos de grande porte.
+This file consolidates the list of improvements and advanced topics that can be added to the Skill's methodologies in the future to raise the level of generated documentation for large-scale projects.
 
 ## 1. Domain-Driven Design (DDD)
-- [ ] **Classificação de Subdomínios (Domain Types):**
-  - Mapear explicitamente se cada Bounded Context é *Core Domain* (coração do negócio/customizado), *Supporting Domain* (auxiliar/customizado) ou *Generic Domain* (genérico/pronto para uso/SaaS).
-- [ ] **Tipagem de Relacionamento (Context Mapping):**
-  - Definir e detalhar padrões de integração de comunicação entre contextos (ex: *Shared Kernel*, *Customer-Supplier*, *Conformist*, *Anti-Corruption Layer (ACL)*).
+- [ ] **Domain Types Classification:**
+  - Explicitly map whether each Bounded Context is a *Core Domain* (heart of the business/custom), *Supporting Domain* (auxiliary/custom), or *Generic Domain* (generic/off-the-shelf/SaaS).
+- [ ] **Context Mapping Relationship Types:**
+  - Define and detail integration patterns for communication between contexts (e.g., *Shared Kernel*, *Customer-Supplier*, *Conformist*, *Anti-Corruption Layer (ACL)*).
 
-## 2. CQRS & Modelagem de Dados
-- [ ] **Estratégia de Migração de Dados (Schema Migrations):**
-  - Detalhar a estratégia de atualização estrutural e migração física do banco de dados (ex: migrações seguras, compatibilidade retroativa e planos de rollback/zero-downtime).
+## 2. CQRS & Data Modeling
+- [ ] **Schema Migrations Strategy:**
+  - Detail the strategy for structural updates and physical database migration (e.g., safe migrations, backward compatibility, and rollback/zero-downtime plans).
 
 ## 3. SDD & Clean Architecture
-- [ ] **Aspectos Transversais (Cross-Cutting Concerns):**
-  - Adicionar seções para padronizar o comportamento de segurança/autenticação, logs/auditoria, e métricas/observabilidade (telemetria) atravessando as camadas físicas da aplicação.
+- [ ] **Cross-Cutting Concerns:**
+  - Add sections to standardize the behavior of security/authentication, logs/auditing, and metrics/observability (telemetry) across the physical layers of the application.
 
 ## 4. EDD (Event-Driven Design)
-- [ ] **Resiliência e Idempotência:**
-  - Definir tratamentos para entrega de mensagens *at-least-once*, controle de idempotência nos consumidores, retry loops e gerenciamento de falhas via *Dead Letter Queues (DLQ)*.
-- [ ] **Serialização de Eventos e Contratos:**
-  - Especificar os formatos de transmissão e protocolos de serialização dos eventos (ex: Avro, Protobuf, JSON Schema) e o respectivo versionamento de contratos para evitar quebras.
+- [ ] **Resilience and Idempotency:**
+  - Define handling for *at-least-once* message delivery, idempotency control in consumers, retry loops, and failure management via *Dead Letter Queues (DLQ)*.
+- [ ] **Event Serialization and Contracts:**
+  - Specify transmission formats and serialization protocols for events (e.g., Avro, Protobuf, JSON Schema) and their respective contract versioning to avoid breakages.
 
-## 5. SEO & Marketing (Fase 13 - Sumário Executivo & Pitch)
-- [ ] **Especificação de SEO e Metadados (SEO & Metadata Plan):**
-  - Criar um artefato bônus automático (ex: `98.03_seo_metadata_plan.md`) gerado opcionalmente na Fase 13. Ele definirá a estratégia de indexabilidade do produto, mapeando meta tags (Title, Description, OpenGraph), dados estruturados (JSON-LD/Schema.org), hierarquia semântica de headings (H1-H3) e diretivas de rastreamento (sitemaps, robots.txt) caso a plataforma alvo seja voltada para a web pública.
+## 5. SEO & Marketing (Phase 13 - Executive Summary & Pitch)
+- [ ] **SEO & Metadata Plan:**
+  - Create an optional automatic bonus artifact (e.g., `98.03_seo_metadata_plan.md`) generated in Phase 13. It will define the product's indexability strategy, mapping meta tags (Title, Description, OpenGraph), structured data (JSON-LD/Schema.org), semantic hierarchy of headings (H1-H3), and crawling directives (sitemaps, robots.txt) if the target platform is geared towards the public web.
 
-## 6. Observabilidade Distribuída (Fase 08 - EDD)
-- [ ] **Rastreabilidade e Correlation IDs:**
-  - Adicionar o desenho de tracing distribuído nos fluxos lógicos assíncronos, especificando como os Correlation IDs serão propagados entre microsserviços/workers para auditoria e depuração de erros.
+## 6. Distributed Observability (Phase 08 - EDD)
+- [ ] **Traceability and Correlation IDs:**
+  - Add distributed tracing design in asynchronous logical flows, specifying how Correlation IDs will be propagated between microservices/workers for auditing and debugging.
 
-## 7. Ideias Futuras / Possibilidades (Talvez)
+## 7. Future Ideas / Possibilities (Maybe)
 > [!NOTE]
-> Os tópicos abaixo descem a um nível de detalhe e granularidade técnica muito alto. Devem ser considerados com cautela (Backlog "Icebox") para não sobrecarregar ou engessar o fluxo de planejamento de alto nível da Skill.
+> The topics below descend to a very high level of detail and technical granularity. They should be considered with caution ("Icebox" Backlog) to avoid overloading or restricting the Skill's high-level planning flow.
 
-- [ ] **Estratégia de Multi-Tenancy (CQRS/Data):** Mapear se a solução isolará inquilinos (tenants) via coluna (ID), schemas lógicos segregados ou bancos de dados físicos independentes.
-- [ ] **Testes de Mutação e SLAs de Latência (TDD):** Adicionar diretrizes conceituais para testar a eficácia real dos asserts dos testes de unidade e regras para falhar a suíte se limiares de throughput/latência forem estourados.
-- [ ] **Testes de A11y Automatizados (TDD/UI):** Integrar checagens automáticas de acessibilidade (ex: axe-core) à suíte de testes do frontend para conformidade legal (WCAG).
-- [ ] **Continuidade e Tolerância a Desastres (SDD/Legal):** Planejar e documentar metas de RTO (Recovery Time Objective) e RPO (Recovery Point Objective) para infraestrutura e banco.
+- [ ] **Multi-Tenancy Strategy (CQRS/Data):** Map whether the solution will isolate tenants via a column (ID), segregated logical schemas, or independent physical databases.
+- [ ] **Mutation Testing and Latency SLAs (TDD):** Add conceptual guidelines to test the actual effectiveness of unit test asserts and rules to fail the suite if throughput/latency thresholds are exceeded.
+- [ ] **Automated A11y Tests (TDD/UI):** Integrate automatic accessibility checks (e.g., axe-core) into the frontend test suite for legal compliance (WCAG).
+- [ ] **Continuity and Disaster Tolerance (SDD/Legal):** Plan and document RTO (Recovery Time Objective) and RPO (Recovery Point Objective) goals for infrastructure and database.
 
+## 8. Token and Context Usage Optimization (Prompt)
+- [ ] **Initial Setup Logic Extraction (Lazy-Loading):**
+  - Move the Setup and Commands instructions (the initial lines of SKILL.md that are long and detailed) to a separate file (e.g., `reference/setup-workflow.md`). Leave in the main prompt only the directive to read this file if the user starts with `/interview new`, removing this overhead from the main question loop.

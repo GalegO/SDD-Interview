@@ -32,7 +32,7 @@ After setup, read [Templates/00.00_tracking_changelog.md](Templates/00.00_tracki
 2. Before asking the first question for a document, read its `Templates/` file and generate the initial document structure in `destination_path`.
 3. Ask exactly one question for the first uncovered topic. Structure your output strictly as follows:
    - **Acknowledgment:** If acknowledging a valid answer and advancing to the next question, make your feedback visually distinct to separate it from the new question. Use normal text for regular chat. You MUST insert a horizontal rule separator (`\n---\n`) immediately after your acknowledgment and before the new Question Header to prevent visual fatigue.
-   - **Question Header:** Format strictly as an H2 or H3 (e.g., `## <Methodology Name>: Pergunta <current> de <total>:`).
+   - **Question Header:** Format strictly as an H2 or H3 (e.g., `## <Methodology Name>: Question <current> of <total>:`).
    - **Semantic Formatting:** Apply strict markdown styling according to [reference/markdown-guidelines.md](reference/markdown-guidelines.md).
    - **Suggestions:** Provide two or three contextual suggestions at the end, wrapped in parentheses.
 4. **CRITICAL RULE - Draft Validation (Mandatory):** You are STRICTLY PROHIBITED from directly writing or modifying any physical `.md` file with new content before the user has reviewed it. You MUST first present a complete Markdown draft of the proposed content in the chat. Challenge shallow answers and continuously iterate on this draft based on user feedback.

@@ -10,6 +10,8 @@ All notable changes to the interview skill are documented in this file.
 - Added `TERMS_OF_USE.md` and Privacy warnings in `README.md` for Legal Compliance (LGPD/GDPR).
 - Implemented Smart Validation rules in `reference/validate.md` to prevent false validation failures (`FAIL`) on active, in-progress phases.
 - Added path duplication sanitization in `SKILL.md` for setup directories, and path existence validation for the `/interview docs` command.
+- Improved `README.md` structure
+- Made available a real example (`examples/demo-v2/`) containing all artifacts generated during a complete interview session.
 
 ### Changed
 
