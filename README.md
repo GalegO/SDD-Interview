@@ -61,23 +61,23 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 | **2. Discovery Framework (5W1H)** | 1 | 6 |
 | **3. Scope Prioritization (MoSCoW)** | 1 | 4 |
 | **4. Epic Breakdown (User Request)** | 1 | 5 |
-| **5. Domain-Driven Design (DDD)** | 4 | 18 |
-| **6. Command Query Responsibility Segregation (CQRS)** | 3 | 10 |
-| **7. Software Design Document (SDD) & Clean Arch** | 2 | 7 |
-| **8. Event-Driven Development (EDD)** | 1 | 7 |
-| **9. User Interface / User Experience (UI/UX)** | 2 | 7 |
-| **10. Behavior-Driven Development (BDD)** | 1 | 3 |
-| **11. Test-Driven Development (TDD)** | 2 | 5 |
-| **12. Legal & Compliance** | 2 | 5 |
+| **5. Domain-Driven Design (DDD)** | 4 | 19 |
+| **6. Command Query Responsibility Segregation (CQRS)** | 3 | 11 |
+| **7. Software Design Document (SDD) & Clean Architecture** | 2 | 8 |
+| **8. Event-Driven Development (EDD)** | 1 | 8 |
+| **9. User Interface / User Experience (UI/UX)** | 2 | 8 |
+| **10. Behavior-Driven Development (BDD)** | 1 | 4 |
+| **11. Test-Driven Development (TDD)** | 2 | 7 |
+| **12. Legal & Compliance** | 2 | 4 |
 | **13. Application Security (AppSec) Strategy [Automated]** | 1 | 1 |
 | **14. Threat Model (STRIDE) [Automated]** | 1 | 1 |
 | **15. Request for Comments (RFC) [Automated]** | 1 | 1 |
 | **16. Developer Onboarding [Automated]** | 1 | 1 |
-| **17. Executive Pitch** | 3 | 9 |
+| **17. Executive Pitch** | 3 | 5 |
 | **Final Outputs (Index & KPIs)** | 2 | 3 |
-| **TOTAL** | **33** | **100** |
+| **TOTAL** | **33** | **114** |
 
-#### 📋 Detailed Breakdown of All 99 Topics
+#### 📋 Detailed Breakdown of All 114 Topics
 - **System (Tracking & QA):** Initial Setup (State Machine), Criteria Analysis (QA), Summary and Next Action (Handoffs).
 - **0. Initial Discovery & Project Briefing:** Identification, Technical Scope and Platform, Identity.
 - **1. Business Model Canvas (BMC):** Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains.
