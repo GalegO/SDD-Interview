@@ -1,8 +1,8 @@
 # Executive Summary & Pitch
 
 **Methodology:** Executive Summary & Pitch
-**Topics:** 4
-**Outputs:** [98.01_executive_summary_business_view.md](98.01_executive_summary_business_view.md); [98.02_marketing_pitch_deck.md](98.02_marketing_pitch_deck.md)
+**Topics:** 5
+**Outputs:** [98.01_executive_summary_business_view.md](98.01_executive_summary_business_view.md); [98.02_marketing_pitch_deck.md](98.02_marketing_pitch_deck.md); [98.03_seo_metadata_plan.md](98.03_seo_metadata_plan.md) (optional)
 **Dependencies:** Should be executed after all other methodologies are complete.
 
 ## Goal
@@ -28,7 +28,12 @@ Based on the previous answer and the overall project, ask the user to craft a hi
 
 Ask the user to list 3 to 5 key selling points or marketing hooks that translate the complex architectural features (e.g., speed, security, scalability) into tangible business benefits (e.g., "Zero downtime for customers", "Bank-grade protection").
 
+### `pitch.seo_metadata`
+
+Ask the user if the target platform is geared towards the public web and if they want an optional SEO & Metadata Plan artifact generated to map indexability strategy.
+
 ## Completion
 
 When the `exec_summary.generate` topic draft is approved by the user, read [Templates/98.01_executive_summary_business_view.md](Templates/98.01_executive_summary_business_view.md) and generate [98.01_executive_summary_business_view.md](98.01_executive_summary_business_view.md).
 When all topics are covered and the final commercial pitch is approved, read [Templates/98.02_marketing_pitch_deck.md](Templates/98.02_marketing_pitch_deck.md) and generate [98.02_marketing_pitch_deck.md](98.02_marketing_pitch_deck.md).
+If the user approved the generation of the SEO plan, read [Templates/98.03_seo_metadata_plan.md](Templates/98.03_seo_metadata_plan.md) and generate [98.03_seo_metadata_plan.md](98.03_seo_metadata_plan.md).

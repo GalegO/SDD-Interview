@@ -2,6 +2,35 @@
 
 All notable changes to the interview skill are documented in this file.
 
+## Version 2.2
+
+### Added
+
+- **Guided Opt-In Patterns (Advanced Topics):** Added an intelligent opt-in strategy for mission-critical architecture topics to avoid overloading simple projects. The AI now proactively suggests the generation of advanced bonus artifacts based on the project profile, but explicitly waits for user approval before proceeding.
+- **Multi-Tenancy Strategy:** Added optional `06.03_cqrs_multi_tenancy.md` generation to Phase 06 (CQRS) for B2B SaaS data isolation.
+- **API Gateway & Edge Security:** Added optional `07.02_sdd_api_gateway.md` generation to Phase 07 (SDD) to map Edge routing, rate limiting, and WAF.
+- **Automated A11y Tests:** Added optional `09.02_ui_ux_a11y_tests.md` generation to Phase 09 (UI/UX) to map WCAG compliance for public frontends.
+- **Advanced TDD Metrics:** Added optional `11.02_tdd_advanced_metrics.md` generation to Phase 11 (TDD) for Mutation Testing and Latency SLAs on high-performance APIs.
+- **Disaster Recovery:** Added optional `12.02_legal_disaster_recovery.md` generation to Phase 12 (Legal) to document RTO/RPO for mission-critical systems.
+- **Automated AppSec Strategy:** Added a new Methodology (Phase 13) that autonomously compiles security answers from previous phases into a unified CyberSec document (`94.01_appsec_strategy.md`).
+- **Security Pulverization (Security by Design):** Injected security questions across existing phases: Identity and Access Management (IAM) in Domain-Driven Design (DDD), Data Encryption in Command Query Responsibility Segregation (CQRS), Secrets Management in Software Design Document (SDD), Payload Protection in Event-Driven Development (EDD), Frontend Defenses in UI/UX, Abuse Cases in Behavior-Driven Development (BDD), and Pipeline Scans in Test-Driven Development (TDD).
+- **Automated RFC Draft:** Added a new Methodology (Phase 15) that autonomously generates a standard Request for Comments (RFC) architecture draft based on the technical decisions of the interview, saving engineering hours.
+- **Threat Model (STRIDE):** Added a new Methodology (Phase 14) that autonomously generates a security assessment matrix based on SDD, EDD, and Legal inputs.
+- **Developer Onboarding:** Added a new Methodology (Phase 16) that autonomously generates a `README-DEV.md` guide for engineers, compiling technical rules without business fluff.
+
+- **Domain Types Classification & Context Mapping:** Added to DDD phase (Phase 05) to map Core/Supporting/Generic domains and define integration patterns.
+- **Schema Migrations Strategy:** Added to CQRS phase (Phase 06) to enforce safe structural updates and zero-downtime database migration plans.
+- **Cross-Cutting Concerns:** Added to SDD phase (Phase 07) to standardize security, logs, and observability across physical layers.
+- **Resilience, Idempotency & Serialization:** Added to EDD phase (Phase 08) to handle DLQs, retry loops, and event payload serialization.
+- **SEO & Metadata Plan:** Added optional generation of `98.03_seo_metadata_plan.md` in Phase 17 to define indexability strategy.
+- **Traceability and Correlation IDs:** Added to EDD phase (Phase 08) to map distributed tracing strategies in asynchronous flows.
+- **Cascading Cross-References:** Added robust Validation Notes across later phases (`07_sdd`, `08_edd`, `10_bdd`, `11_tdd`, `12_legal`) to ensure downstream artifacts correctly implement architectural decisions made in DDD, CQRS, and EDD.
+
+### Changed / Fine-Tuning
+- **Granular Draft Validation:** Refined the core interview loop so the AI only generates and asks for validation of the specific Markdown snippet related to the current question, avoiding premature whole-file drafts.
+- **Question Header Formatting:** Standardized the interview prompt headers to explicitly include the Methodology ID and Acronym (e.g., `## 05.DDD: Question 1 of 18:`).
+- **Methodology Names:** Standardized all methodology references across documentation to consistently use the `Official Name (ACRONYM)` format.
+
 ## Version 2.1
 
 ### Added

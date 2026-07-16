@@ -34,7 +34,7 @@ tags: ["validation", "audit", "architecture"]
   - *Detail:* <detail>
 
 - **Consistent Final Index:** `<PASS|WARNING|FAIL>`
-  - *File:* `99.01_index_readme.md`
+  - *File:* `README.md`
   - *Detail:* <detail>
 
 - **Cross-Methodology Consistency:** `<PASS|WARNING|FAIL>`

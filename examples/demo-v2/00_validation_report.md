@@ -34,7 +34,7 @@ tags: ["validation", "audit", "architecture"]
   - *Detail:* Files have the standard metadata required by `okf_enabled: true`.
 
 - **Consistent Final Index:** `PASS`
-  - *File:* `99.01_index_readme.md`
+  - *File:* `README.md`
   - *Detail:* The Front Door perfectly maps the Discovery phase and all 14 completed optional modules, including the recently added Commercial Pitch.
 
 - **Methodology Cross-Consistency:** `PASS`

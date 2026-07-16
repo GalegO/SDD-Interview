@@ -16,7 +16,7 @@ List and explain all available commands:
 - `/interview help <topic>`: Provides a deep-dive explanation of any specific methodology, concept, or framework (e.g., `/interview help BMC`, `/interview help OKF`, or `/interview help Clean Architecture`). When this command is used, the AI bypasses the general help menu and acts as your personal architecture tutor. It will search its internal knowledge base or the web to deliver a comprehensive, easy-to-understand explanation of the requested topic and how it applies to software design.
 
 ## 3. Supported Methodologies
-Explain that the user can choose from a menu of 14 structured phases. Briefly list the core ones to give context, starting with their acronyms:
+Explain that the user can choose from a menu of 17 structured phases. Briefly list the core ones to give context, starting with their acronyms:
 - **Briefing**: Initial Discovery & Project Briefing
 - **BMC**: Business Model Canvas
 - **5W1H**: Discovery Framework
@@ -30,14 +30,15 @@ Explain that the user can choose from a menu of 14 structured phases. Briefly li
 - **BDD**: Behavior-Driven Development (Scenarios)
 - **TDD**: Test-Driven Development (Test Strategy)
 - **Legal**: Legal Compliance & GDPR/LGPD
+- **AppSec**: Application Security Strategy
+- **Threat Model**: STRIDE Assessment
+- **RFC**: Request for Comments Draft
+- **Dev Onboarding**: Developer README-DEV
 - **Executive & Pitch**: Executive Summary & Marketing Pitch Deck
 - **KPIs**: Session KPIs & Curiosities
 
 ## 4. OKF (Object Key Framework)
 Briefly explain the OKF (if the user asks or as a small note). Explain that it is an optional rigid frontmatter metadata structure for the generated markdown files.
-
-## 5. The Golden Rule (Draft Validation)
-Explicitly inform the user about the **Draft Validation Rule**. Explain that the AI will ask exactly one question at a time. After the user answers, the AI will *always* generate a Markdown draft in the chat. The physical Markdown files are only updated after the user gives their explicit approval of the draft. This gives the user full control over what is written.
 
 ---
 **Note for the AI:** Format the output clearly using Markdown styling (bolding, lists, and code blocks for commands) according to the [reference/markdown-guidelines.md](reference/markdown-guidelines.md).

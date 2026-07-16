@@ -1,7 +1,7 @@
 # 🧠👔 SDD-Interview (Software Design & Discovery)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-2.0-brightgreen.svg)
+![Version](https://img.shields.io/badge/version-2.2-brightgreen.svg)
 ![AI-Powered](https://img.shields.io/badge/AI-Agentic_Skill-purple.svg)
 
 **Your Agentic AI Chief Software Architect & Mentor.** 
@@ -56,39 +56,47 @@ Whether you are designing a completely **new project**, scoping out a **new feat
 | Methodology | Artifacts Count | Topics Count |
 |---|:---:|:---:|
 | **System (Tracking & QA)** | 2 | 4 |
-| **00. Initial Discovery** | 1 | 4 |
-| **01. Business Model Canvas (BMC)** | 1 | 9 |
-| **02. 5W1H Discovery** | 1 | 6 |
-| **03. MoSCoW Prioritization** | 1 | 4 |
-| **04. Epic Breakdown** | 1 | 3 |
-| **05. Domain-Driven Design (DDD)** | 4 | 12 |
-| **06. Command Query Responsibility Segregation (CQRS)** | 2 | 6 |
-| **07. Clean Architecture (SDD)** | 1 | 4 |
-| **08. Event-Driven Design (EDD)** | 1 | 4 |
-| **09. UI/UX Atomic Design** | 1 | 5 |
+| **0. Initial Discovery & Project Briefing** | 1 | 7 |
+| **1. Business Model Canvas (BMC)** | 1 | 7 |
+| **2. Discovery Framework (5W1H)** | 1 | 6 |
+| **3. Scope Prioritization (MoSCoW)** | 1 | 4 |
+| **4. Epic Breakdown (User Request)** | 1 | 5 |
+| **5. Domain-Driven Design (DDD)** | 4 | 18 |
+| **6. Command Query Responsibility Segregation (CQRS)** | 3 | 10 |
+| **7. Software Design Document (SDD) & Clean Arch** | 2 | 7 |
+| **8. Event-Driven Development (EDD)** | 1 | 7 |
+| **9. User Interface / User Experience (UI/UX)** | 2 | 7 |
 | **10. Behavior-Driven Development (BDD)** | 1 | 3 |
-| **11. Test-Driven Development (TDD)** | 1 | 4 |
-| **12. Legal & Compliance** | 1 | 4 |
-| **13. Executive Pitch** | 2 | 8 |
+| **11. Test-Driven Development (TDD)** | 2 | 5 |
+| **12. Legal & Compliance** | 2 | 5 |
+| **13. Application Security (AppSec) Strategy [Automated]** | 1 | 1 |
+| **14. Threat Model (STRIDE) [Automated]** | 1 | 1 |
+| **15. Request for Comments (RFC) [Automated]** | 1 | 1 |
+| **16. Developer Onboarding [Automated]** | 1 | 1 |
+| **17. Executive Pitch** | 3 | 9 |
 | **Final Outputs (Index & KPIs)** | 2 | 3 |
-| **TOTAL** | **23** | **83** |
+| **TOTAL** | **33** | **100** |
 
-#### 📋 Detailed Breakdown of All 83 Topics
+#### 📋 Detailed Breakdown of All 99 Topics
 - **System (Tracking & QA):** Initial Setup (State Machine), Criteria Analysis (QA), Summary and Next Action (Handoffs).
-- **00. Initial Discovery:** Identification, Technical Scope and Platform, Identity.
-- **01. Business Model Canvas (BMC):** Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains.
-- **02. 5W1H Discovery:** What?, Who?, When?, Where?, Why?, How?.
-- **03. MoSCoW Prioritization:** Must Have, Should Have, Could Have, Won't Have.
-- **04. Epic Breakdown:** Macro Context (Epic), Business View (CEO Opinion), Atomic Subtask Description, Basic Acceptance Criteria, Constraints and Assumptions.
-- **05. Domain-Driven Design (DDD):** System Actors, Aggregates/Entities, Commands/Events, Asynchronous Reactions, Architectural Decisions, Bounded Contexts, Ubiquitous Language, Boundaries/Interactions, Solution Summary, Technical Approach, Trade-offs, Discarded Alternatives, Database/Backend/Frontend/Infra Tasks.
-- **06. Command Query Responsibility Segregation (CQRS):** Pattern Evaluation, New Tables/Modifications, Relationships, Indexes, Data Engineer Validation, Specific Business Rules, API Contracts, Expected Error Codes.
-- **07. Clean Architecture (SDD):** Core Isolation, Ports and Adapters, Component Topology, C4 Diagram, Protections and Avoided Violations.
-- **08. Event-Driven Design (EDD):** Main Sequence Flow, Asynchronous Flows (EDD), Messaging Strategy, Caching Strategy.
-- **09. UI/UX Atomic Design:** Responsive Approach, Structure/Hierarchy, Colors/Typography, Interface States/Feedback, Cognitive Accessibility (A11y), Visual References.
+- **0. Initial Discovery & Project Briefing:** Identification, Technical Scope and Platform, Identity.
+- **1. Business Model Canvas (BMC):** Problem, Value Proposition, Customer Segments, Viability and Sustainability, Key Partnerships, Cost Structure, Revenue Streams / Gains.
+- **2. Discovery Framework (5W1H):** What?, Who?, When?, Where?, Why?, How?.
+- **3. Scope Prioritization (MoSCoW):** Must Have, Should Have, Could Have, Won't Have.
+- **4. Epic Breakdown (User Request):** Macro Context (Epic), Business View (CEO Opinion), Atomic Subtask Description, Basic Acceptance Criteria, Constraints and Assumptions.
+- **5. Domain-Driven Design (DDD):** System Actors, Aggregates/Entities, Commands/Events, Asynchronous Reactions, Architectural Decisions, Domain Types Classification, Bounded Contexts, Context Mapping, Ubiquitous Language, Boundaries/Interactions, Solution Summary, Technical Approach, Trade-offs, Discarded Alternatives, Database/Backend/Frontend/Infra Tasks.
+- **6. Command Query Responsibility Segregation (CQRS):** Pattern Evaluation, New Tables/Modifications, Relationships, Indexes, Schema Migrations Strategy, Data Engineer Validation, Specific Business Rules, API Contracts, Expected Error Codes, *Multi-Tenancy Strategy (Opt-in)*.
+- **7. Software Design Document (SDD) & Clean Architecture:** Core Isolation, Ports and Adapters, Component Topology, C4 Diagram, Protections and Avoided Violations, Cross-Cutting Concerns, *API Gateway & Edge Security (Opt-in)*.
+- **8. Event-Driven Development (EDD):** Main Sequence Flow, Asynchronous Flows (EDD), Messaging Strategy, Resilience and Idempotency, Event Serialization and Contracts, Caching Strategy, Traceability and Correlation IDs.
+- **9. User Interface / User Experience (UI/UX):** Responsive Approach, Structure/Hierarchy, Colors/Typography, Interface States/Feedback, Cognitive Accessibility (A11y), Visual References, *Automated A11y Tests (Opt-in)*.
 - **10. Behavior-Driven Development (BDD):** Happy Path, Logical Exceptions Handling, Concurrency and Integrity Constraints.
-- **11. Test-Driven Development (TDD):** Integration Tests, Frontend/UI Tests, Database Tests, Native Performance Tests, Edge Cases/Compliance.
-- **12. Legal & Compliance:** Privacy Assessment (LGPD/GDPR), Contractual and Tax Aspects, Legal Fallback.
-- **13. Executive Pitch:** Project Overview, Business Value/Goals, High-Level Architecture, Technical Decisions/Trade-offs, Critical Risks/Compliance, Target Audience/Pain Points, Elevator Pitch, Main Selling Points.
+- **11. Test-Driven Development (TDD):** Integration Tests, Frontend/UI Tests, Database Tests, Native Performance Tests, Edge Cases/Compliance, *Mutation Testing & Latency SLAs (Opt-in)*.
+- **12. Legal & Compliance:** Privacy Assessment (LGPD/GDPR), Contractual and Tax Aspects, Legal Fallback, *Continuity and Disaster Tolerance (Opt-in)*.
+- **13. Application Security (AppSec) Strategy [Automated]:** Generated without user intervention. Consolidates IAM, Encryption, Secrets, and DevSecOps decisions into a unified Application Security document.
+- **14. Threat Model (STRIDE) [Automated]:** Generated without user intervention. Automated STRIDE matrix and attack vectors mitigation based on SDD/CQRS/EDD.
+- **15. Request for Comments (RFC) [Automated]:** Generated without user intervention. Automated RFC Draft (Motivation, Proposed Implementation, Metrics, Drawbacks, Impact/Dependencies).
+- **16. Developer Onboarding [Automated]:** Generated without user intervention. Technical README-DEV.md focused purely on how to navigate the codebase on Day 1.
+- **17. Executive Pitch:** Project Overview, Business Value/Goals, High-Level Architecture, Technical Decisions/Trade-offs, Critical Risks/Compliance, Target Audience/Pain Points, Elevator Pitch, Main Selling Points, SEO & Metadata Plan.
 - **Final Outputs (Index & KPIs):** Project Summary (Index), Methodologies/Artifacts Index, Legal Aspects/Risk, Timeline, Volume of Outputs, Telemetry/AI Consumption, Operation Curiosities (KPIs).
 
 ---
@@ -114,7 +122,7 @@ Trigger the skill in your AI interface by typing:
    - `/interview help` - View detailed information on the methodologies.
 
 ### 🎛️ A La Carte Selection
-You are **not** obligated to go through all 13 methodology phases and 83 topics every single time. At the beginning of the interview, you can select exactly which methodologies you want to use (e.g., only DDD and CQRS for a specific microservice). 
+You are **not** obligated to go through all 16 methodology phases and 99 topics every single time. At the beginning of the interview, you can select exactly which methodologies you want to use (e.g., only DDD and CQRS for a specific microservice). 
 However, **we strongly advise running the full, complete interview at least once**. By experiencing the entire flow and knowing exactly what content is generated in each phase, you will easily be able to determine if those methodologies will be needed in the future or not. Remember: *the more questions you answer, the higher the quality of the final consolidated architecture.*
 
 ### 🎯 Real Example (Demo V2)
@@ -126,13 +134,9 @@ To see exactly what the output of this skill looks like, check out the **[Demo V
 
 ## 🗺️ Roadmap (Future Horizons)
 
-We are constantly improving the SKILL to handle enterprise-grade and mission-critical architectures. Upcoming topics:
-- **DDD:** Domain Types Classification and Context Mapping.
-- **CQRS:** Schema Migrations strategies.
-- **Clean Architecture:** Cross-Cutting Concerns integration.
-- **EDD:** Resilience, Idempotency, and Event Serialization Contracts.
-- **Observability:** Distributed Tracing and Correlation IDs.
-- **SEO & Marketing:** Automated SEO & Metadata strategic planning.
+We are constantly improving the SKILL to handle enterprise-grade and mission-critical architectures. 
+
+*(All current advanced topics have been successfully integrated into Version 2.2! Suggest a new feature via the Issues tab).*
 
 ---
 
